@@ -1,0 +1,29 @@
+body {
+	font-family: "Courier New";
+	margin: 7% 25% 7% 25%;
+	color: whitesmoke;
+	background-color: rgb(15, 15, 15);
+}
+
+h1#header_title {
+	font-size: 300%;
+	text-align: center;
+}
+
+dl#main_list {
+	font-size: 150%;
+}
+
+dt.design_tip {
+	color: crimson;
+}
+
+dd.desc {
+	font-size: 75%;
+}
+
+@media (max-width: 800px) {
+	body {
+		margin: 7% 5% 7% 5%;
+	}
+}
