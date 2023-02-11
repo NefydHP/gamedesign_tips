@@ -9,17 +9,68 @@ h1#header_title {
 	font-size: 300%;
 	text-align: center;
 }
-
 dl#main_list {
 	font-size: 150%;
 }
-
 dt.design_tip {
 	color: crimson;
 }
-
 dd.desc {
 	font-size: 75%;
+}
+
+div#credits {
+	text-align: center;
+	margin: 25% 25% 25% 25%;
+}
+div#credits h1.title {
+	font-size: 225%;
+}
+div#credits a img#jangen {
+	width: 35%;
+	height: 35%;
+	border-radius: 50%;
+	opacity: 50%;
+	transition: all 0.3s ease-in-out;
+}
+div#credits a:hover img#jangen {
+	width: 40%;
+	height: 40%;
+	opacity: 100%;
+}
+div#credits p#name {
+	font-size: 200%;
+}
+
+nav#navbar {
+	position: fixed;
+	left: 1%;
+	top: 2%;
+	transition: transform 0.3s ease;
+}
+.navbar-hidden {
+	transform: translateY(-110%);
+}
+#navbar ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	width: 175%;
+}
+#navbar ul li a {
+	text-align: center;
+	display: block;
+	font-size: 250%;
+	text-decoration: none;
+	color: crimson;
+}
+#navbar ul li a.active {
+	background-color: crimson;
+	color: rgb(15, 15, 15);
+}
+#navbar ul li a:hover:not(.active) {
+	background-color: whitesmoke;
+	color: rgb(15, 15, 15);
 }
 
 @media (max-width: 800px) {
